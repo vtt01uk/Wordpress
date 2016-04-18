@@ -31,7 +31,7 @@ echo '<section class="has-padding" id="contact">';
 					echo esc_html( $pixova_lite_contact_section_address );
 				echo '</p>';
 
-				echo '<h3>'.__('Customer Support', 'pixova-lite').'</h3>';
+				echo '<h3>'.__('Reach me by', 'pixova-lite').'</h3>';
 				echo '<p class="contact-info-details">'.__('Phone: ', 'pixova-lite').esc_html( $pixova_lite_contact_section_phone );
 					echo '<br />';
 					echo __('Email: ', 'pixova-lite').esc_html( $pixova_lite_contact_section_email );

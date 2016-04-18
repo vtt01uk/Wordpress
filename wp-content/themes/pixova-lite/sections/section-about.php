@@ -1,7 +1,7 @@
 <?php
 
 $pixova_lite_section_title = get_theme_mod('pixova_lite_about_section_title', __('We build solutions for your everyday problems.', 'pixova-lite') );
-$pixova_lite_section_sub_title = get_theme_mod('pixova_lite_about_section_sub_title', __('This is what we do in a nutshell.', 'pixova-lite') );
+$pixova_lite_section_sub_title = get_theme_mod('pixova_lite_about_section_sub_title', __('This is what I do', 'pixova-lite') );
 
 // Text blocks
 $pixova_lite_section_text_block = get_theme_mod('pixova_lite_about_section_textarea', __('Creative ut tincidunt nibh, varius cursus nunc. Curabitur molestie, metus vel luctus euismod, mi libero laoreet odio, eu dapibus leo tortor sit amet purus. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.', 'pixova-lite') );
@@ -95,7 +95,7 @@ echo '<section class="has-padding" id="about">';
 		}
 
 	# Section title
-    echo '<h2 class="text-center">' . __('Our Skills', 'pixova-lite') . '</h2>';
+    echo '<h2 class="text-center">' . __('My Skills', 'pixova-lite') . '</h2>';
 
 echo '<div class="pixova_lite_pie_chart_wrapper '.$pixova_lite_cols.'">';
 
